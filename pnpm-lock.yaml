@@ -3,19 +3,19 @@ lockfileVersion: 5.3
 specifiers:
   '@chatie/tsconfig': ^1.0.3
   axios: ^0.24.0
-  socket.io-client: ^4.3.2
+  socket.io-client: ^4.4.0
   ts-node: ^10.4.0
-  typescript: ^4.4.4
-  wechaty: ^1.0.6
-  wechaty-puppet: ^1.2.11
-  wechaty-puppet-mock: ^1.0.3
+  typescript: ^4.5.2
+  wechaty: ^1.10.4
+  wechaty-puppet: ^1.10.2
+  wechaty-puppet-mock: ^1.10.2
 
 dependencies:
   axios: registry.npmmirror.com/axios/0.24.0
   socket.io-client: registry.npmmirror.com/socket.io-client/4.4.0
-  wechaty: registry.npmmirror.com/wechaty/1.0.6
-  wechaty-puppet: registry.npmmirror.com/wechaty-puppet/1.2.11
-  wechaty-puppet-mock: registry.npmmirror.com/wechaty-puppet-mock/1.0.3_wechaty-puppet@1.2.11
+  wechaty: registry.npmmirror.com/wechaty/1.10.4
+  wechaty-puppet: registry.npmmirror.com/wechaty-puppet/1.10.2
+  wechaty-puppet-mock: registry.npmmirror.com/wechaty-puppet-mock/1.10.2_wechaty-puppet@1.10.2
 
 devDependencies:
   '@chatie/tsconfig': registry.npmmirror.com/@chatie/tsconfig/1.0.3
@@ -3093,6 +3093,12 @@ packages:
     version: 2.1.0
     dev: false
 
+  registry.nlark.com/tslib/2.3.1:
+    resolution: {integrity: sha1-6KM1rdXOrlGqJh0ypJAVjvBC7wE=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/tslib/download/tslib-2.3.1.tgz}
+    name: tslib
+    version: 2.3.1
+    dev: false
+
   registry.nlark.com/tunnel-agent/0.6.0:
     resolution: {integrity: sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/tunnel-agent/download/tunnel-agent-0.6.0.tgz}
     name: tunnel-agent
@@ -4254,6 +4260,12 @@ packages:
     version: 4.0.1
     dev: false
 
+  registry.npmmirror.com/@types/node/13.13.52:
+    resolution: {integrity: sha1-A8E75wuQMbqu15SBwMDPsAReU/c=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/node/download/@types/node-13.13.52.tgz}
+    name: '@types/node'
+    version: 13.13.52
+    dev: false
+
   registry.npmmirror.com/@types/node/16.11.9:
     resolution: {integrity: sha512-MKmdASMf3LtPzwLyRrFjtFFZ48cMf8jmX5VRYrDQiJa8Ybu5VAmkqBWqKU8fdCwD8ysw4mQ9nrEHvzg6gunR7A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/node/download/@types/node-16.11.9.tgz}
     name: '@types/node'
@@ -4298,7 +4310,7 @@ packages:
     dev: true
 
   registry.npmmirror.com/ajv/6.12.6:
-    resolution: {integrity: sha1-uvWmLoArB9l3A0WG+MO69a3ybfQ=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/ajv/download/ajv-6.12.6.tgz?cache=0&sync_timestamp=1637094139083&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fajv%2Fdownload%2Fajv-6.12.6.tgz}
+    resolution: {integrity: sha1-uvWmLoArB9l3A0WG+MO69a3ybfQ=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/ajv/download/ajv-6.12.6.tgz}
     name: ajv
     version: 6.12.6
     dependencies:
@@ -4724,10 +4736,10 @@ packages:
     version: 5.5.3
     dev: false
 
-  registry.npmmirror.com/file-box/1.4.1:
-    resolution: {integrity: sha512-9MWzDv6bft3oBlcOHnFKbXYK6JySjmzBAs7IzZ3XA6+fJgd72YhK7KlrbC3O8Kll5OGpzdgWvhh4jSoSagOIaw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/file-box/download/file-box-1.4.1.tgz}
+  registry.npmmirror.com/file-box/1.4.3:
+    resolution: {integrity: sha512-rGFN5JpKCHeWNgBQh8AbiP6Gq2joTZgyRl1gK6qhYvkwO/VnQDBZXBWHBtpj+XezfDOgQ1KeuM046Ivyo1VQqQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/file-box/download/file-box-1.4.3.tgz}
     name: file-box
-    version: 1.4.1
+    version: 1.4.3
     engines: {node: '>=16', npm: '>=7'}
     dependencies:
       brolog: registry.npmmirror.com/brolog/1.14.2
@@ -4809,6 +4821,12 @@ packages:
     peerDependenciesMeta:
       debug:
         optional: true
+    dev: false
+
+  registry.npmmirror.com/fp-ts/2.11.5:
+    resolution: {integrity: sha1-l8zrJmVbFFLXCI1vsIZPhMzv++Q=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/fp-ts/download/fp-ts-2.11.5.tgz}
+    name: fp-ts
+    version: 2.11.5
     dev: false
 
   registry.npmmirror.com/fromentries/1.3.2:
@@ -5142,6 +5160,15 @@ packages:
       istanbul-lib-report: registry.nlark.com/istanbul-lib-report/3.0.0
     dev: true
 
+  registry.npmmirror.com/ix/4.5.2:
+    resolution: {integrity: sha1-yRFj04gFxbQnkC18wu41zO4DZKU=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/ix/download/ix-4.5.2.tgz}
+    name: ix
+    version: 4.5.2
+    dependencies:
+      '@types/node': registry.npmmirror.com/@types/node/13.13.52
+      tslib: registry.nlark.com/tslib/2.3.1
+    dev: false
+
   registry.npmmirror.com/jackspeak/1.4.1:
     resolution: {integrity: sha512-npN8f+M4+IQ8xD3CcWi3U62VQwKlT3Tj4GxbdT/fYTmeogD9eBF9OFdpoFG/VPNoshRjPUijdkp/p2XrzUHaVg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/jackspeak/download/jackspeak-1.4.1.tgz}
     name: jackspeak
@@ -5448,11 +5475,11 @@ packages:
     version: 2.2.1
     dev: false
 
-  registry.npmmirror.com/memory-card/0.12.2:
-    resolution: {integrity: sha1-BraRind4CK9fu041h9LTq4nveiw=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/memory-card/download/memory-card-0.12.2.tgz}
+  registry.npmmirror.com/memory-card/1.0.3:
+    resolution: {integrity: sha512-//gpo/WMR5dgfRYBtxamQ3luDEZOGsHqUO5CcgYkWzrbvRS/teIOftnpqBdIpaJEC6yGFZU+K3+8HneKM9IH6w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/memory-card/download/memory-card-1.0.3.tgz}
     name: memory-card
-    version: 0.12.2
-    engines: {node: '>= 10'}
+    version: 1.0.3
+    engines: {node: '>=16', npm: '>=7'}
     dependencies:
       async-map-like: registry.npmmirror.com/async-map-like/0.2.5
       brolog: registry.npmmirror.com/brolog/1.14.2
@@ -5741,7 +5768,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/parse-json/4.0.0:
-    resolution: {integrity: sha1-vjX1Qlvh9/bHRxhPmKeIy5lHfuA=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/parse-json/download/parse-json-4.0.0.tgz?cache=0&sync_timestamp=1636944864216&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fparse-json%2Fdownload%2Fparse-json-4.0.0.tgz}
+    resolution: {integrity: sha1-vjX1Qlvh9/bHRxhPmKeIy5lHfuA=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/parse-json/download/parse-json-4.0.0.tgz}
     name: parse-json
     version: 4.0.0
     engines: {node: '>=4'}
@@ -6022,25 +6049,11 @@ packages:
       nop: registry.npmmirror.com/nop/1.0.0
     dev: false
 
-  registry.npmmirror.com/state-switch/1.6.1:
-    resolution: {integrity: sha512-+mvtmItCXb1DchMTVFpWDRQCZxCnSub7JYlmbx7wPcQmRVD3BuLZF3AHOYUTwc5ZzS/O5GmMd4zmSd10h4MvzQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/state-switch/download/state-switch-1.6.1.tgz}
+  registry.npmmirror.com/state-switch/1.6.2_brolog@1.14.2+gerror@1.0.14:
+    resolution: {integrity: sha512-B+XuIuzaSdrIOc3vfJEDxNa1OLd8At7F/lvnCSNoTzIQuPzq/JGGni1UTzUO+slW9YGdQKZ9KELU4wgpEkdgJg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/state-switch/download/state-switch-1.6.2.tgz}
+    id: registry.npmmirror.com/state-switch/1.6.2
     name: state-switch
-    version: 1.6.1
-    engines: {node: '>=16', npm: '>=7'}
-    peerDependencies:
-      brolog: ^1.13.6
-      gerror: ^1.0.8
-      rxjs: ^7.4.0
-    dependencies:
-      '@pipeletteio/nop': registry.npmmirror.com/@pipeletteio/nop/1.0.0
-      xstate: registry.npmmirror.com/xstate/4.26.0
-    dev: false
-
-  registry.npmmirror.com/state-switch/1.6.1_brolog@1.14.2+gerror@1.0.14:
-    resolution: {integrity: sha512-+mvtmItCXb1DchMTVFpWDRQCZxCnSub7JYlmbx7wPcQmRVD3BuLZF3AHOYUTwc5ZzS/O5GmMd4zmSd10h4MvzQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/state-switch/download/state-switch-1.6.1.tgz}
-    id: registry.npmmirror.com/state-switch/1.6.1
-    name: state-switch
-    version: 1.6.1
+    version: 1.6.2
     engines: {node: '>=16', npm: '>=7'}
     peerDependencies:
       brolog: ^1.13.6
@@ -6050,7 +6063,23 @@ packages:
       '@pipeletteio/nop': registry.npmmirror.com/@pipeletteio/nop/1.0.0
       brolog: registry.npmmirror.com/brolog/1.14.2
       gerror: registry.npmmirror.com/gerror/1.0.14
-      xstate: registry.npmmirror.com/xstate/4.26.0
+      xstate: registry.npmmirror.com/xstate/4.26.1
+    dev: false
+
+  registry.npmmirror.com/state-switch/1.6.2_gerror@1.0.14:
+    resolution: {integrity: sha512-B+XuIuzaSdrIOc3vfJEDxNa1OLd8At7F/lvnCSNoTzIQuPzq/JGGni1UTzUO+slW9YGdQKZ9KELU4wgpEkdgJg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/state-switch/download/state-switch-1.6.2.tgz}
+    id: registry.npmmirror.com/state-switch/1.6.2
+    name: state-switch
+    version: 1.6.2
+    engines: {node: '>=16', npm: '>=7'}
+    peerDependencies:
+      brolog: ^1.13.6
+      gerror: ^1.0.8
+      rxjs: ^7.4.0
+    dependencies:
+      '@pipeletteio/nop': registry.npmmirror.com/@pipeletteio/nop/1.0.0
+      gerror: registry.npmmirror.com/gerror/1.0.14
+      xstate: registry.npmmirror.com/xstate/4.26.1
     dev: false
 
   registry.npmmirror.com/string-width/3.1.0:
@@ -6372,6 +6401,14 @@ packages:
     version: 1.4.0
     dev: false
 
+  registry.npmmirror.com/typed-emitter/1.5.0-from-event:
+    resolution: {integrity: sha512-KfCo0Zhj/5HSs5gxBINypaS/vMg/8KwyWeuD3YsBsIT95vRopuYWc5LE7sqpWydzNc6Zd/uQ1EHPZ/dpsmJSzw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/typed-emitter/download/typed-emitter-1.5.0-from-event.tgz}
+    name: typed-emitter
+    version: 1.5.0-from-event
+    optionalDependencies:
+      rxjs: registry.npmmirror.com/rxjs/7.4.0
+    dev: false
+
   registry.npmmirror.com/typesafe-actions/5.1.0:
     resolution: {integrity: sha1-mv6LHmoyOvH9WealexG33WYj0vE=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/typesafe-actions/download/typesafe-actions-5.1.0.tgz}
     name: typesafe-actions
@@ -6438,29 +6475,29 @@ packages:
       stronger-typed-streams: registry.npmmirror.com/stronger-typed-streams/0.2.0
     dev: false
 
-  registry.npmmirror.com/wechaty-puppet-mock/1.0.3_wechaty-puppet@1.2.11:
-    resolution: {integrity: sha1-n0pJ6B46SX5JZCJlzA2E4nvo71M=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/wechaty-puppet-mock/download/wechaty-puppet-mock-1.0.3.tgz}
-    id: registry.npmmirror.com/wechaty-puppet-mock/1.0.3
+  registry.npmmirror.com/wechaty-puppet-mock/1.10.2_wechaty-puppet@1.10.2:
+    resolution: {integrity: sha512-3u8WSEIsvMugnrjK2Gcl4u/WTSgbmst6q1YtzNs/5zxXPRBaDhoIjFT90Y65QmD9FHXR9/ml+vEpET6XkGnhBw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/wechaty-puppet-mock/download/wechaty-puppet-mock-1.10.2.tgz}
+    id: registry.npmmirror.com/wechaty-puppet-mock/1.10.2
     name: wechaty-puppet-mock
-    version: 1.0.3
-    engines: {node: '>= 16', npm: '>=7', wechaty: '>=1.0.4'}
+    version: 1.10.2
+    engines: {node: '>= 16', npm: '>=7'}
     peerDependencies:
-      wechaty-puppet: ^1.0.1
+      wechaty-puppet: ^1.10.2
     dependencies:
       cuid: registry.npmmirror.com/cuid/2.1.8
       faker: registry.npmmirror.com/faker/5.5.3
       typed-emitter: registry.npmmirror.com/typed-emitter/1.4.0
-      wechaty-puppet: registry.npmmirror.com/wechaty-puppet/1.2.11
+      wechaty-puppet: registry.npmmirror.com/wechaty-puppet/1.10.2
     dev: false
 
-  registry.npmmirror.com/wechaty-puppet-service/1.9.3_54a41d2d395e01b2ecfdca39d0f7568f:
-    resolution: {integrity: sha512-eFfDVC9ks0yMdij2c/VbuHUvI+LaiAhnvSDST5UMl1u1/fEtylOX3Y0jXaebLk1guzRjU1NmX71WWcnsRUQepg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/wechaty-puppet-service/download/wechaty-puppet-service-1.9.3.tgz}
-    id: registry.npmmirror.com/wechaty-puppet-service/1.9.3
+  registry.npmmirror.com/wechaty-puppet-service/1.10.2_2629c5bca8cd22a564cc93744ae8a2b6:
+    resolution: {integrity: sha512-nRURPbJkzAhd8bg9pimx+7Qb/UsXxWwAOwRpwnfG3TChyxjHDPSYg8R7T68wsFpkx4OZYso/XlJrY9R+Aph1sA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/wechaty-puppet-service/download/wechaty-puppet-service-1.10.2.tgz}
+    id: registry.npmmirror.com/wechaty-puppet-service/1.10.2
     name: wechaty-puppet-service
-    version: 1.9.3
+    version: 1.10.2
     engines: {node: '>=16', npm: '>=7'}
     peerDependencies:
-      wechaty-puppet: ^1.7.18
+      wechaty-puppet: ^1.10.1
     dependencies:
       clone-class: registry.npmmirror.com/clone-class/1.0.3
       ducks: registry.npmmirror.com/ducks/1.0.2_redux@4.1.2
@@ -6472,8 +6509,8 @@ packages:
       stronger-typed-streams: registry.npmmirror.com/stronger-typed-streams/0.2.0
       uuid: registry.npmmirror.com/uuid/8.3.2
       wechaty-grpc: registry.npmmirror.com/wechaty-grpc/0.33.6
-      wechaty-puppet: registry.npmmirror.com/wechaty-puppet/1.2.11
-      wechaty-redux: registry.npmmirror.com/wechaty-redux/1.9.9_3a978e9bf0c4a589d18341f57cc07feb
+      wechaty-puppet: registry.npmmirror.com/wechaty-puppet/1.10.2
+      wechaty-redux: registry.npmmirror.com/wechaty-redux/1.10.1_d3fd9767ed6881a763059ef4d42fe31d
       wechaty-token: registry.npmmirror.com/wechaty-token/0.5.8
     transitivePeerDependencies:
       - redux-observable
@@ -6481,48 +6518,49 @@ packages:
       - supports-color
     dev: false
 
-  registry.npmmirror.com/wechaty-puppet/1.2.11:
-    resolution: {integrity: sha1-1pmG1hqofwdOoyq4VDUtTJrgVag=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/wechaty-puppet/download/wechaty-puppet-1.2.11.tgz}
+  registry.npmmirror.com/wechaty-puppet/1.10.2:
+    resolution: {integrity: sha512-MDS/UhFIa1SjEGuszaiU/EwUGcb6cFfPZWK66hyuT0KdAXf2ErogaR8utlBhdtzyw4pt0L6sigxx+E/x6ed0jw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/wechaty-puppet/download/wechaty-puppet-1.10.2.tgz}
     name: wechaty-puppet
-    version: 1.2.11
+    version: 1.10.2
     engines: {node: '>=16', npm: '>=7', wechaty: '>=0.79'}
     dependencies:
       '@alloc/quick-lru': registry.npmmirror.com/@alloc/quick-lru/5.2.0
       brolog: registry.npmmirror.com/brolog/1.14.2
       clone-class: registry.npmmirror.com/clone-class/1.0.3
-      file-box: registry.npmmirror.com/file-box/1.4.1
+      file-box: registry.npmmirror.com/file-box/1.4.3
+      fp-ts: registry.npmmirror.com/fp-ts/2.11.5
       gerror: registry.npmmirror.com/gerror/1.0.14
-      memory-card: registry.npmmirror.com/memory-card/0.12.2
-      state-switch: registry.npmmirror.com/state-switch/1.6.1_brolog@1.14.2+gerror@1.0.14
-      typed-emitter: registry.npmmirror.com/typed-emitter/1.4.0
+      memory-card: registry.npmmirror.com/memory-card/1.0.3
+      state-switch: registry.npmmirror.com/state-switch/1.6.2_brolog@1.14.2+gerror@1.0.14
+      typed-emitter: registry.npmmirror.com/typed-emitter/1.5.0-from-event
       uuid: registry.npmmirror.com/uuid/8.3.2
       watchdog: registry.npmmirror.com/watchdog/0.9.2
     transitivePeerDependencies:
       - rxjs
     dev: false
 
-  registry.npmmirror.com/wechaty-redux/1.9.9_3a978e9bf0c4a589d18341f57cc07feb:
-    resolution: {integrity: sha512-4vhNsBX26REZEzl3oUbqZu/qgEZ0yDhDRyfVHeJ2ZHPReHW1cePtez41rm+4y75PUJ86WQ5sb2FbIxRQN6P38w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/wechaty-redux/download/wechaty-redux-1.9.9.tgz}
-    id: registry.npmmirror.com/wechaty-redux/1.9.9
+  registry.npmmirror.com/wechaty-redux/1.10.1_d3fd9767ed6881a763059ef4d42fe31d:
+    resolution: {integrity: sha512-08VcMfhzG39Uscj0XbTfJ6/jTNvZDSVe+UgSjcA7E3CQIwUE6WYGTUaPACjeb27Akd+eqduYpJ9gZgYSWj/0oA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/wechaty-redux/download/wechaty-redux-1.10.1.tgz}
+    id: registry.npmmirror.com/wechaty-redux/1.10.1
     name: wechaty-redux
-    version: 1.9.9
-    engines: {node: '>=16', npm: '>=7', wechaty: '>=1.9'}
+    version: 1.10.1
+    engines: {node: '>=16', npm: '>=7'}
     peerDependencies:
       gerror: ^1.0.14
       redux: ^4.1.2
       redux-observable: ^2.0.0
       rxjs: ^7.4
-      state-switch: ^1.6.1
+      state-switch: ^1.6.2
       uuid: ^8.3.2
-      wechaty-puppet: ^1.7.22
+      wechaty-puppet: ^1.10.2
     dependencies:
       gerror: registry.npmmirror.com/gerror/1.0.14
       redux: registry.npmmirror.com/redux/4.1.2
       rxjs: registry.npmmirror.com/rxjs/7.4.0
-      state-switch: registry.npmmirror.com/state-switch/1.6.1
+      state-switch: registry.npmmirror.com/state-switch/1.6.2_gerror@1.0.14
       typesafe-actions: registry.npmmirror.com/typesafe-actions/5.1.0
       uuid: registry.npmmirror.com/uuid/8.3.2
-      wechaty-puppet: registry.npmmirror.com/wechaty-puppet/1.2.11
+      wechaty-puppet: registry.npmmirror.com/wechaty-puppet/1.10.2
     dev: false
 
   registry.npmmirror.com/wechaty-token/0.5.8:
@@ -6540,27 +6578,29 @@ packages:
       - supports-color
     dev: false
 
-  registry.npmmirror.com/wechaty/1.0.6:
-    resolution: {integrity: sha1-gdwOr4Z8odPMGeONf0SKOlpqMI4=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/wechaty/download/wechaty-1.0.6.tgz}
+  registry.npmmirror.com/wechaty/1.10.4:
+    resolution: {integrity: sha512-Y9yT3u4/E9kW4YmYfBsvsEjHaxXQciQEsXf2TgeTsXcZCa5AobC8udaYiryeKUdmcLtQ54/OBf4d+txK4UsGsg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/wechaty/download/wechaty-1.10.4.tgz}
     name: wechaty
-    version: 1.0.6
+    version: 1.10.4
     engines: {node: '>=16', npm: '>=7'}
     hasBin: true
     dependencies:
       clone-class: registry.npmmirror.com/clone-class/1.0.3
       cockatiel: registry.npmmirror.com/cockatiel/2.0.2
       dotenv: registry.nlark.com/dotenv/10.0.0
+      fp-ts: registry.npmmirror.com/fp-ts/2.11.5
+      gerror: registry.npmmirror.com/gerror/1.0.14
+      ix: registry.npmmirror.com/ix/4.5.2
       json-rpc-peer: registry.npmmirror.com/json-rpc-peer/0.17.0
       open-graph: registry.npmmirror.com/open-graph/0.2.6
-      state-switch: registry.npmmirror.com/state-switch/1.6.1
+      state-switch: registry.npmmirror.com/state-switch/1.6.2_gerror@1.0.14
       uuid: registry.npmmirror.com/uuid/8.3.2
-      wechaty-puppet: registry.npmmirror.com/wechaty-puppet/1.2.11
-      wechaty-puppet-service: registry.npmmirror.com/wechaty-puppet-service/1.9.3_54a41d2d395e01b2ecfdca39d0f7568f
+      wechaty-puppet: registry.npmmirror.com/wechaty-puppet/1.10.2
+      wechaty-puppet-service: registry.npmmirror.com/wechaty-puppet-service/1.10.2_2629c5bca8cd22a564cc93744ae8a2b6
       ws: registry.npmmirror.com/ws/8.2.3
     transitivePeerDependencies:
       - brolog
       - bufferutil
-      - gerror
       - redux-observable
       - rxjs
       - supports-color
@@ -6615,10 +6655,10 @@ packages:
     engines: {node: '>=0.4.0'}
     dev: false
 
-  registry.npmmirror.com/xstate/4.26.0:
-    resolution: {integrity: sha1-rqPJS231dyn1XT0rg6udIYAa0k4=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/xstate/download/xstate-4.26.0.tgz}
+  registry.npmmirror.com/xstate/4.26.1:
+    resolution: {integrity: sha512-JLofAEnN26l/1vbODgsDa+Phqa61PwDlxWu8+2pK+YbXf+y9pQSDLRvcYH2H1kkeUBA5fGp+xFL/zfE8jNMw4g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/xstate/download/xstate-4.26.1.tgz}
     name: xstate
-    version: 4.26.0
+    version: 4.26.1
     dev: false
 
   registry.npmmirror.com/yaml/1.10.2:

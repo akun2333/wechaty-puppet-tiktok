@@ -70,4 +70,5 @@ wechaty
   .on('logout', logout)
   .on('message', message)
   .on('error', error)
-  .start()
+
+wechaty.start()

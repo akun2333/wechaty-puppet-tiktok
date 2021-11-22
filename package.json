@@ -1,16 +1,16 @@
 {
   "name": "@akunx/wechaty-puppet-tiktok",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "",
-  "main": "./dist/index.js",
-  "typings": "./dist/index.d.ts",
+  "main": "./dist/src/index.js",
+  "typings": "./dist/src/index.d.ts",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "homepage": "https://github.com/22528850/wechaty-puppet-tiktok",
   "scripts": {
     "start": "node --loader=ts-node/esm examples/index.ts",
-    "publish": "tsc && npm publish --access public"
+    "public": "tsc && npm publish --access public"
   },
   "dependencies": {
     "axios": "^0.24.0",

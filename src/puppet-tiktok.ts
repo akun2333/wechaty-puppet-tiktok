@@ -12,8 +12,8 @@ export class PuppetTiktok extends Puppet {
   private socket = io(this.server)
   private redirect_uri = 'https://tiktok.321mq.com/login'
   private token: { access_token?: any; open_id?: any; } = {}
-  private isLoggedIn = false
   get socketId() { return this.socket.id }
+  isLoggedIn = false
   mocker: Mocker
   contacts: { [key: string]: PUPPET.payload.Contact } = {}
   rooms: { [key: string]: PUPPET.payload.Room } = {}

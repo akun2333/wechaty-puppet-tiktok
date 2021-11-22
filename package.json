@@ -1,0 +1,27 @@
+{
+  "name": "@akunx/wechaty-puppet-tiktok",
+  "version": "1.0.3",
+  "description": "",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/22528850/wechaty-puppet-tiktok",
+  "scripts": {
+    "start": "node --loader=ts-node/esm examples/index.ts",
+    "publish": "tsc && npm publish --access public"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "socket.io-client": "^4.3.2",
+    "wechaty": "^1.0.6",
+    "wechaty-puppet": "^1.2.11",
+    "wechaty-puppet-mock": "^1.0.3"
+  },
+  "devDependencies": {
+    "@chatie/tsconfig": "^1.0.3",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}

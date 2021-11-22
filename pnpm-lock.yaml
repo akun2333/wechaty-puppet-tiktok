@@ -3,6 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@chatie/tsconfig': ^1.0.3
   axios: ^0.24.0
+  redux-observable: ^2.0.0
   socket.io-client: ^4.4.0
   ts-node: ^10.4.0
   typescript: ^4.5.2
@@ -12,8 +13,9 @@ specifiers:
 
 dependencies:
   axios: registry.npmmirror.com/axios/0.24.0
+  redux-observable: registry.npmmirror.com/redux-observable/2.0.0
   socket.io-client: registry.npmmirror.com/socket.io-client/4.4.0
-  wechaty: registry.npmmirror.com/wechaty/1.10.4
+  wechaty: registry.npmmirror.com/wechaty/1.10.4_redux-observable@2.0.0
   wechaty-puppet: registry.npmmirror.com/wechaty-puppet/1.10.2
   wechaty-puppet-mock: registry.npmmirror.com/wechaty-puppet-mock/1.10.2_wechaty-puppet@1.10.2
 
@@ -4592,7 +4594,7 @@ packages:
     version: 1.2.2
     dev: false
 
-  registry.npmmirror.com/ducks/1.0.2_redux@4.1.2:
+  registry.npmmirror.com/ducks/1.0.2_97184b9589e427731e622f1dbab226ec:
     resolution: {integrity: sha512-CDLrkP4g5E3IG0kAPrlVgavrgtNwn528DsXFZq3dSOx+DaS5nnoH9eEOXJ1emXtPVwiVF50pOYvWGF42miaJgg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/ducks/download/ducks-1.0.2.tgz}
     id: registry.npmmirror.com/ducks/1.0.2
     name: ducks
@@ -4603,6 +4605,7 @@ packages:
       redux-observable: ^2.0.0
     dependencies:
       redux: registry.npmmirror.com/redux/4.1.2
+      redux-observable: registry.npmmirror.com/redux-observable/2.0.0
     dev: false
 
   registry.npmmirror.com/duplexer3/0.1.4:
@@ -5885,6 +5888,17 @@ packages:
     version: 1.0.0
     dev: false
 
+  registry.npmmirror.com/redux-observable/2.0.0:
+    resolution: {integrity: sha1-Q1i+8ukkcjqLGtDoNczrsWEqa5o=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/redux-observable/download/redux-observable-2.0.0.tgz}
+    name: redux-observable
+    version: 2.0.0
+    peerDependencies:
+      redux: '>=4 <5'
+    dependencies:
+      rxjs: registry.npmmirror.com/rxjs/7.4.0
+      tslib: registry.nlark.com/tslib/2.1.0
+    dev: false
+
   registry.npmmirror.com/redux/4.1.2:
     resolution: {integrity: sha1-FA81Qm2Zu0cpr3YK/PeeqqxAcQQ=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/redux/download/redux-4.1.2.tgz?cache=0&sync_timestamp=1635663569710&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fredux%2Fdownload%2Fredux-4.1.2.tgz}
     name: redux
@@ -6490,7 +6504,7 @@ packages:
       wechaty-puppet: registry.npmmirror.com/wechaty-puppet/1.10.2
     dev: false
 
-  registry.npmmirror.com/wechaty-puppet-service/1.10.2_2629c5bca8cd22a564cc93744ae8a2b6:
+  registry.npmmirror.com/wechaty-puppet-service/1.10.2_02893ac27d81940b735c7361b0440e89:
     resolution: {integrity: sha512-nRURPbJkzAhd8bg9pimx+7Qb/UsXxWwAOwRpwnfG3TChyxjHDPSYg8R7T68wsFpkx4OZYso/XlJrY9R+Aph1sA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/wechaty-puppet-service/download/wechaty-puppet-service-1.10.2.tgz}
     id: registry.npmmirror.com/wechaty-puppet-service/1.10.2
     name: wechaty-puppet-service
@@ -6500,7 +6514,7 @@ packages:
       wechaty-puppet: ^1.10.1
     dependencies:
       clone-class: registry.npmmirror.com/clone-class/1.0.3
-      ducks: registry.npmmirror.com/ducks/1.0.2_redux@4.1.2
+      ducks: registry.npmmirror.com/ducks/1.0.2_97184b9589e427731e622f1dbab226ec
       flash-store: registry.npmmirror.com/flash-store/1.3.4
       gerror: registry.npmmirror.com/gerror/1.0.14
       redux: registry.npmmirror.com/redux/4.1.2
@@ -6510,7 +6524,7 @@ packages:
       uuid: registry.npmmirror.com/uuid/8.3.2
       wechaty-grpc: registry.npmmirror.com/wechaty-grpc/0.33.6
       wechaty-puppet: registry.npmmirror.com/wechaty-puppet/1.10.2
-      wechaty-redux: registry.npmmirror.com/wechaty-redux/1.10.1_d3fd9767ed6881a763059ef4d42fe31d
+      wechaty-redux: registry.npmmirror.com/wechaty-redux/1.10.1_9e12083e43528250bf06cdd01ea70a55
       wechaty-token: registry.npmmirror.com/wechaty-token/0.5.8
     transitivePeerDependencies:
       - redux-observable
@@ -6539,7 +6553,7 @@ packages:
       - rxjs
     dev: false
 
-  registry.npmmirror.com/wechaty-redux/1.10.1_d3fd9767ed6881a763059ef4d42fe31d:
+  registry.npmmirror.com/wechaty-redux/1.10.1_9e12083e43528250bf06cdd01ea70a55:
     resolution: {integrity: sha512-08VcMfhzG39Uscj0XbTfJ6/jTNvZDSVe+UgSjcA7E3CQIwUE6WYGTUaPACjeb27Akd+eqduYpJ9gZgYSWj/0oA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/wechaty-redux/download/wechaty-redux-1.10.1.tgz}
     id: registry.npmmirror.com/wechaty-redux/1.10.1
     name: wechaty-redux
@@ -6556,6 +6570,7 @@ packages:
     dependencies:
       gerror: registry.npmmirror.com/gerror/1.0.14
       redux: registry.npmmirror.com/redux/4.1.2
+      redux-observable: registry.npmmirror.com/redux-observable/2.0.0
       rxjs: registry.npmmirror.com/rxjs/7.4.0
       state-switch: registry.npmmirror.com/state-switch/1.6.2_gerror@1.0.14
       typesafe-actions: registry.npmmirror.com/typesafe-actions/5.1.0
@@ -6578,8 +6593,9 @@ packages:
       - supports-color
     dev: false
 
-  registry.npmmirror.com/wechaty/1.10.4:
+  registry.npmmirror.com/wechaty/1.10.4_redux-observable@2.0.0:
     resolution: {integrity: sha512-Y9yT3u4/E9kW4YmYfBsvsEjHaxXQciQEsXf2TgeTsXcZCa5AobC8udaYiryeKUdmcLtQ54/OBf4d+txK4UsGsg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/wechaty/download/wechaty-1.10.4.tgz}
+    id: registry.npmmirror.com/wechaty/1.10.4
     name: wechaty
     version: 1.10.4
     engines: {node: '>=16', npm: '>=7'}
@@ -6596,7 +6612,7 @@ packages:
       state-switch: registry.npmmirror.com/state-switch/1.6.2_gerror@1.0.14
       uuid: registry.npmmirror.com/uuid/8.3.2
       wechaty-puppet: registry.npmmirror.com/wechaty-puppet/1.10.2
-      wechaty-puppet-service: registry.npmmirror.com/wechaty-puppet-service/1.10.2_2629c5bca8cd22a564cc93744ae8a2b6
+      wechaty-puppet-service: registry.npmmirror.com/wechaty-puppet-service/1.10.2_02893ac27d81940b735c7361b0440e89
       ws: registry.npmmirror.com/ws/8.2.3
     transitivePeerDependencies:
       - brolog
